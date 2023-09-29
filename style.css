@@ -16,7 +16,7 @@ body {
     font-weight: bold;
 }
 .calc-container{
-    width: 365px;
+    width: 305px;
     background-color: rgb(9, 114, 138);
     border-radius: 20px;
     padding: 30px;
@@ -31,7 +31,7 @@ body {
 }
 .mathBut{
     height: 59px;
-    width: 126px;
+    width: 59px;
     margin: 10px 4px;
     border: none !important;
 }
