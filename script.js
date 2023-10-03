@@ -24,7 +24,13 @@ function equalButPress(){
 }
 
 function clearButPress(){
-
+preVal = ''
+newVal = ''
+resultVal = ''
+mathOperator = ''
+decimalClicked = false
+valMemeStored = ''
+document.getElementById('entry').value = '0'
 }
 
 function copyButPress(){
@@ -32,5 +38,5 @@ function copyButPress(){
 }
 
 function pasteButPress(){
-    
+
 }
