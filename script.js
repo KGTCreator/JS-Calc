@@ -22,6 +22,7 @@ function mathButPress(operator){
 function equalButPress(){
 
 }
+
 //clears everything EXCEPT memory
 function clearButPress(){
 preVal = ''
@@ -31,11 +32,15 @@ mathOperator = ''
 decimalClicked = false
 document.getElementById('entry').value = '0'
 }
-
+//store the current value in "enty" in valMemStored
 function copyButPress(){
-
+    valMemStored = document.getElementById('entry').value
 }
-
+// If a value has been stored paste it in the #entry
+//window and assign its as the newVal
 function pasteButPress(){
-
+    if (valMemStored) {
+        document.getElementById('entry').value = valMemStored
+        newVal = valMemStored
+    }
 }
